@@ -1,2 +1,3 @@
-# web_competition
-第三节网页设计作品
+# 百色学院第三届网页设计大赛
+html css javascript
+
