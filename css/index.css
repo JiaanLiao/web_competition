@@ -32,12 +32,13 @@ body {
     height: 130px;
     margin: 0 auto;
     margin-top: 125px;
-    background-color: rgb(219, 201, 174);
+    background-color: rgb(253, 239, 219);
 }
 
 #header img {
     height: 80PX;   
     margin: 10PX;
+    margin-left: 20px;
 }
 /* 右侧显示栏 */
 #seache {
@@ -109,12 +110,12 @@ body {
 #nav ul {
     list-style: none;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 #nav ul li {
     float: left;
-    width: 50px;
+    width: 70px;
     line-height: 40px;
     margin-right: 20px;
     text-align: center;
@@ -226,7 +227,7 @@ body {
     width: 100%;
     height: 145px;
     margin-bottom: 7px;
-    background-color: #ccc
+    background-color: #ccc;
 }
 #banner_right ul li img{
     width: 100%;
@@ -242,8 +243,8 @@ body {
 .example p {
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 120px;
-    left: 70px;
+    top: 110px;
+    left: 10px;
     text-align: center;
     font-size: 13px;
 }
@@ -269,7 +270,7 @@ body {
 margin-left: 10px;}
 .list--ordered {counter-reset: list-counter;display: block;}
 .list--ordered .list__item::before {
-        background: rgb(174, 248, 139);
+        background: rgb(252, 126, 126);
         color: rgb(104, 105, 86);
         content: counter(list-counter);
         counter-increment: list-counter;
@@ -304,7 +305,7 @@ margin-left: 10px;}
 }
 .box-th ul li {
     float: left;
-    width: 151px;
+    width: 152px;
     height: 40px;
     padding: 5px;
     text-align: center;
@@ -360,57 +361,40 @@ margin-left: 10px;}
 #contact2_roll{
     margin-top: 10px;
     width: 100%;
-    height: 190px;
+    height: 130px;
 }
 #contact2_roll_left{
     width: 70px;height: 100%;
     background: rgb(202, 191, 191);
     float: left;
     text-align:center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #contact2_roll_right{
 float: right;
-height: 180px;
+height: 120px;
 width: 950px;
 margin-top: 5px;
 background-color: aliceblue;
 
 }
-#div1
-{
-    position: relative;
-    margin: 0px auto;
-    width: 850px;
-    height:180px;
-    overflow: hidden;
-    margin-right: 50px;
-}
-#div1 ul
-{
-    position: absolute;
-    left:0;
-}
-#div1 ul li
-{
-    float:left;
-    padding: 10px;
-    list-style: none;
-    width: 180px;
-    height: 130px;
-}
-#div1 ul li img
-{
-    width: 180px;
-    height: 130px;
-}
-#div1 a{
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-line-height: 20px;
-}
+#div1{width: 900px;margin-left: 20px;
+    height:120px;position:relative;overflow:hidden;}
+  .btn_left{display:block;width:68px;height:68px;position:absolute;top:30px;left:0px;z-index:1;}
+  .btn_right{display:block;width:68px;height:68px;position:absolute;top:30px;right:0;z-index:1;}
+  #div1 .content{width:700px;height:108px;position:absolute;overflow:hidden;margin:0 auto;}
+ .content img{float:left;width:182px;height:108px;text-align:center;position:relative;
+} #div1 img{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    #div1 a{
+        width: 40px;    
+        height: 40px;
+        font-size: 40px;
+        line-height: 40px;
+    }
 /* contact2 */
 /* contact3 */
 #contact3{
@@ -558,3 +542,36 @@ line-height: 20px;
 
 
 /* footer css end */
+.goTop{
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #545bb6;
+    position: fixed;
+    bottom: 70px;
+    right: 100px;
+    display: none;
+}
+#goTop_top{
+    width: 200px;
+    height: 123px;
+    background: url(../images/fixedItembg.png) no-repeat;
+}
+#goTop_buttom{
+    width: 55px;
+    height: 280px;
+    margin-left: 65px;
+}
+#goTop_buttom ul li{
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-top: 8px;
+    font-size: 30px;
+    line-height: 55px;
+}
+#goTop_buttom ul li img{
+    width: 100%;
+}

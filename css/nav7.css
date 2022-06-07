@@ -1,0 +1,226 @@
+/* 全局css begin */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 微软雅黑;
+}
+li{
+    list-style: none;
+}
+
+body {
+    background: url(../images/big-bg.jpg) no-repeat;
+    background-position: top;
+}
+
+
+/* 全局css end */
+
+
+/* header css begin*/
+
+#header {
+    width: 1024px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 125px;
+    background-color: rgb(219, 201, 174);
+}
+
+#header img {
+    height: 80PX;   
+    margin: 10PX;
+    margin-left: 20px;
+}
+/* 右侧显示栏 */
+#seache {
+    width: 250px;
+    height: 100px;
+    float: right;
+}
+
+#seache ul {
+    float: left;
+    list-style: none;
+    margin: 5px 0 5px 0;
+    width: 250px;
+}
+
+#seache ul li {
+    float: left;
+    margin-right: 10px;
+    background-color: #a9aaaa;
+    font-size: 14px;
+}
+
+#seache .seache {
+    height: 30px;
+    width: 180px;
+    margin-top: 7px;
+}
+
+.button {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(167, 168, 172);
+    margin-top: 7px;
+
+}
+
+#timer{
+    width: 250px;
+}
+
+.roll {
+    position: relative;
+    width: 900px;
+    height: 25px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header css end*/
+/* nav css begin*/
+
+#nav {
+    width: 1024px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgb(217, 230, 228);
+}
+
+#nav ul {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+
+#nav ul li {
+    float: left;
+    width: 70px;
+    line-height: 40px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+#nav ul li:hover{
+    background-color: #dbd2d2;
+}
+
+/* nav css end*/
+/* contact */
+#contact{
+    margin: 10px auto;
+    width: 1024px;
+    height: 800px;
+}
+#contact_left{
+    width: 700px;
+    height: 800px;
+    float: left;
+    border: 1px solid #ccc;
+}
+#contact_left ul{
+margin:  20px 0 0 10px;
+}
+#contact_left ul li{
+    margin-top: 4px;
+    font-size: 15px;
+}
+#contact_left ul span{
+    float: right;
+}
+#contact_right{
+    width: 300px;
+    height: 800px;
+    float: right;
+    border: 1px solid #ccc;
+}
+#contact_right h2{
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    line-height: 25px;
+    height: 30px;
+    border-left:12px solid rgb(233, 162, 162) ;
+}
+#contact_right ul{
+    margin: 10px 0 0 10px;
+}
+#contact_right ul li{
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+/* contact */
+#footer {
+    width: 1024px;
+    margin: 0 auto;
+    /* background-color: rgb(226, 226, 219); */
+}
+#connet{
+    width: 1024px;
+    height: 200px;
+    background-color: aliceblue;
+
+}
+#connet div{
+    margin-top: 10px;
+    width: 480px;
+    height: 180px;
+    float: left;
+}
+.connet_left{
+    border-right: 1px dashed #ccc;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.connet_left ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.connet_left ul li{
+    width: 110px;
+    float: left;
+    margin-right: 30px;
+}
+.connet_left ul li img{
+    width: 100%;
+}
+#connet h2{
+    font-size: 20px ;
+    line-height: 20px;
+    color: rgb(68, 65, 65);
+    margin-top: 10px;
+}
+.connet_right ul{
+    margin: 20px 0 0 20px;
+}
+.connet_right ul li{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 1024px;
+    height: 100px;
+    background-color: #216ED8;
+    margin: 0 auto;
+}
+.footer p{text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+.footer .magintop{
+    padding-top: 15px;
+}
